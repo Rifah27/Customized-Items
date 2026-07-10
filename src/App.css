@@ -1,0 +1,81 @@
+/* -------- Reset & Base -------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafc;
+  color: #222;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* -------- Header -------- */
+.app-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.nav-bar a {
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-bar a:hover {
+  background: #f1f1f1;
+  color: #007bff;
+}
+
+/* -------- Buttons -------- */
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+.preview-btn {
+  padding: 6px 14px;
+  border-radius: 6px;
+  background: #007bff;
+  color: #fff;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.preview-btn:hover {
+  background: #0056b3;
+}
+
+/* -------- Main Layout -------- */
+main {
+  padding: 20px;
+}
