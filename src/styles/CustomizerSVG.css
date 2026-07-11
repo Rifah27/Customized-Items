@@ -31,7 +31,6 @@
 .customizer-main {
   display: flex;
   flex-direction: row;
-  /* grid-template-columns: auto 1fr; */
   justify-content: space-between;
   gap: 1.5rem;
   width: 100%;
