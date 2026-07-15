@@ -32,7 +32,6 @@ function App() {
         </Routes>
       </main>
 
-      {/* Global Preview Modal */}
       <PreviewModal isOpen={isPreviewOpen} onClose={() => setPreviewOpen(false)} />
     </Router>
   );
